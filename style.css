@@ -10,7 +10,24 @@ html {
 
 #main_div {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 12%;
+}
+
+.adv_div {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.adv_label {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+
+.adv_input {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
 #main_heading {

@@ -16,8 +16,18 @@
                     <font color="#4863A0">G</font><font color="#F67280">o</font><font color="#FFEF00">o</font><font color="#4863A0">g</font><font color="#77DD77">l</font><font color="#F67280">e</font>
                     Advanced Search
                 </h1>
-                <input type="text" id="search_box" name="q"><br>
-                <input type="submit" id="search_button" value="Google Search">
+                <h3 style="text-align: left; margin-top:50px; margin-left: 30%;">Find pages with...</h3>
+                <div class="adv_field">
+                    <label for="field1" class="adv_label">all these words:</label>
+                    <input type="text" class="adv_input" name="as_q"><br>
+                    <label for="field2" class="adv_label">this exact word or phrase:</label>
+                    <input type="text" class="adv_input" name="as_epq"><br>
+                    <label for="field3" class="adv_label">any of these words:</label>
+                    <input type="text" class="adv_input" name="as_oq"><br>
+                    <label for="field4" class="adv_label">none of these words:</label>
+                    <input type="text" class="adv_input" name="as_eq">
+                </div>
+                <input type="submit" id="search_button" value="Advanced Search">
             </form>
         </div>
     </body>
