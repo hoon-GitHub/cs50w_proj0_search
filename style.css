@@ -1,0 +1,26 @@
+#main_div {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#main_heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#search_box { 
+    width: 40%;
+    font-size: large;
+    color: #4863A0;
+    border: 2px solid #e6f1ff; 
+    padding: 10px; 
+    border-radius: 20px; 
+}
+
+#search_button {
+    font-size: medium;
+    background-color: #eff6ff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
