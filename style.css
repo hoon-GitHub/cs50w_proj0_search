@@ -1,3 +1,13 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav_div {
+    padding: 10px;
+    text-align: right;
+    font-size: small;
+}
+
 #main_div {
     text-align: center;
     padding-top: 15%;
@@ -5,14 +15,13 @@
 
 #main_heading {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #search_box { 
     width: 40%;
     font-size: large;
     color: #4863A0;
-    border: 2px solid #e6f1ff; 
+    border: 2px solid #deecff; 
     padding: 10px; 
     border-radius: 20px; 
 }
@@ -20,7 +29,12 @@
 #search_button {
     font-size: medium;
     background-color: #eff6ff;
-    border: none;
+    border: 2px solid #eff6ff;
+    margin: 20px;
     padding: 10px;
     border-radius: 10px;
+}
+
+#search_button:hover {
+    border-color: #acc5ff;
 }
